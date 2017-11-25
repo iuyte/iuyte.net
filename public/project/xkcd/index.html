@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Discord bot for xkcd</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: black;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://www.iuyte.net//css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.31" />
+        
+        
+        
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Discord bot for xkcd</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/author/">Authors</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:iuyte@iuyte.net"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/iuyte/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/ethanailw/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.stackoverflow.com/users/8742520/iuyte"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/project/xkcd/">Discord bot for xkcd</a></h4>
+    <h5>November 25, 2017</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="span-style-color-red-font-weight-bold-background-span"><span style="color: red; font-weight: bold;">Background</span></h1>
+
+<h2 id="span-style-color-red-xkcd-https-xkcd-com-span"><span style="color: red;"><a href="https://xkcd.com/">xkcd</a></span></h2>
+
+<p>XKCD is a webcomic by <a href="https://en.wikipedia.org/wiki/Randall_Munroe">Randall Munroe</a>.
+It consists primarily of romance, sarcasm, math, and language, appealing to a
+lot of nerdy people (and some non-nerds too). I really enjoy it, and felt the
+need to create a discord bot for it.</p>
+
+<h2 id="span-style-color-red-discord-https-discordapp-com-span"><span style="color: red;"><a href="https://discordapp.com/">Discord</a></span></h2>
+
+<p>Quote from their website as of today:</p>
+
+<p><span style="color: red; font-family: monospace;">
+All-in-one voice and text chat for gamers that&rsquo;s free, secure,
+and works on both your desktop and phone. Stop paying for TeamSpeak servers and
+hassling with Skype. Simplify your life.
+</span></p>
+
+<p>Additionally, it has video chat in group messages, and an API. Many libraries
+have been created for a plethora of programming languages for this API. Many
+people have begun to create Discord bots, that reply to messages or perform
+and action based on a command, or even act as a person and try to form coherent
+words, sentances and phrases.</p>
+
+<h2 id="span-style-color-red-the-mix-span"><span style="color: red;">The mix</span></h2>
+
+<p>I use Discord daily to comminicate with people who have common interests, such
+as robotics, school, programming, etc. A new xkcd comic is posted every Monday,
+Wednesday, and Friday, so those are a pretty common activity for me as well.</p>
+
+<p>I decided to use a Discord library for <a href="https://golang.org/">golang</a> called
+<a href="https://github.com/bwmarrin/discordgo">discordgo</a> to do this project, becuase
+I really like golang and I found discordgo to be a mature library.</p>
+
+<h2 id="span-style-color-red-status-span"><span style="color: red;">Status</span></h2>
+
+<p>The project is at a bit of a standstill right now, with crunch time for robotics
+in full effect. However, I did have plenty opportunity to get it off of the
+ground prior to now.</p>
+
+<h4 id="span-style-color-red-what-works-span"><span style="color: red;">What Works</span></h4>
+
+<ul>
+    <li>Random comic - works well, fast</li>
+    <li>Get comic by number - same state as random</li>
+    <li>Get comic by search tag - slow</li>
+    <li>Play youtube music - not necessary, but cool</li>
+    <li>Search youtube for music - works, but needs more indicators of success</li>
+</ul>
+
+<h4 id="span-style-color-red-what-doesn-t-span"><span style="color: red;">What Doesn&rsquo;t</span></h4>
+
+<ul>
+    <li>Search speed - loops over all xkcds, makes a request for each,
+    selects one with most matches</li>
+    <li>Events - supposed to integrate a calender, but that never really got going</li>
+</ul>
+
+<h2 id="span-style-color-red-moving-forward-span"><span style="color: red;">Moving Forward</span></h2>
+
+<p>Firstly, before adding any more unnecessary features, I want to fix the speed
+problem. The best way to solve this would be an independent database that
+updates every few minutes on each Monday, Wednesday, and Friday, until the
+latest xkcd is posted. Likely, the easest way to get the latest xkcd is through
+the <a href="https://xkcd.com/rss.xml">RSS feed</a> or <a href="https://xkcd.com/atom.xml">Atom feed</a>.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; Ethan Wells, 2017</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

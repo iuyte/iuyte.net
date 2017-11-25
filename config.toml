@@ -1,3 +1,72 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.iuyte.net/"
+DefaultContentLanguage = "en"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "minimal"
+title = "iuyte"
+
+[params]
+	# Color settings
+	accent = "red"
+	backgroundColor = "black"
+	showBorder = true
+	font = "Raleway"
+	highlight = true
+	highlightStyle = "solarized-dark"
+	highlightLanguages = ["go", "c", "kotlin", "java"]
+
+  # General info
+  author = "Ethan Wells"
+  description = "Programming, linux, robotics and science"
+  copyright = "Copyright (c) Ethan Wells, 2017"
+
+  # Repository
+  provider = "GitHub"
+  repo_url = "https://github.com/iuyte/iuyte.net.git"
+  logo = "img/iV7.2.png"
+	showVisitedLinks = true # default is false
+	themeStyle = "original" # "original" or "flex" # default "original"
+	themeVariant = "gold" # choose theme variant "green", "gold" , "gray", "blue" (default)
+	ordersectionsby = "weight" # ordersectionsby = "title"
+	disableHomeIcon = false # default is false
+	disableSearch = false # default is false
+	disableNavChevron = false # set true to hide next/prev chevron, default is false
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+[[menu.main]]
+    url = "/author/"
+    name = "Authors"
+    weight = 4
+
+[[menu.icon]]
+    url = "mailto:iuyte@iuyte.net"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/iuyte/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/ethanailw/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/users/8742520/iuyte"
+    name = "stack-overflow"
+    weight = 4

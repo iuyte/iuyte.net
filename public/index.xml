@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iuyte</title>
+    <link>https://www.iuyte.net/</link>
+    <description>Recent content on iuyte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) Ethan Wells, 2017</copyright>
+    <lastBuildDate>Sat, 25 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.iuyte.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discord bot for xkcd</title>
+      <link>https://www.iuyte.net/project/xkcd/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iuyte.net/project/xkcd/</guid>
+      <description>Background xkcd XKCD is a webcomic by Randall Munroe. It consists primarily of romance, sarcasm, math, and language, appealing to a lot of nerdy people (and some non-nerds too). I really enjoy it, and felt the need to create a discord bot for it.
+Discord Quote from their website as of today:
+All-in-one voice and text chat for gamers that&amp;rsquo;s free, secure, and works on both your desktop and phone.</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://www.iuyte.net/post/first/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iuyte.net/post/first/</guid>
+      <description>First My first post here, after getting this site. I&amp;rsquo;m very excited for this, although not sure what in particular I might do with this.
+Happy Thanksgiving I wish everyone a happy Thanksgiving, and hope that all got great deals Black Friday shopping.</description>
+    </item>
+    
+    <item>
+      <title>iuyte</title>
+      <link>https://www.iuyte.net/author/iuyte/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.iuyte.net/author/iuyte/</guid>
+      <description>Who I&amp;rsquo;m a young programmer, roboticist, scientist and linux enthusiast. My main goal is to learn as much as possible about as much as possible. By no measure am I an expert at any one thing, but as I learn more this will hopefully change.
+Projects My github is here
+Additionally, I love to mess with my raspberry pi and mod it to do various activities, and am a crucial aspect of the 2 robotics teams at my school.</description>
+    </item>
+    
+  </channel>
+</rss>
