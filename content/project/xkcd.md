@@ -1,8 +1,5 @@
 +++
 title="Discord bot for xkcd"
-type="page"
-creatordisplayname = "iuyte"
-creatoremail = "iuyte@iuyte.net"
 date = "2017-11-25"
 +++
 # <span style="color: red; font-weight: bold;">Background</span>
