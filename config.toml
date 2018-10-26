@@ -36,21 +36,6 @@ title = "iuyte"
     name = "Home"
     weight = 1
 
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 2
-
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
-
-[[menu.main]]
-    url = "/author/"
-    name = "Authors"
-    weight = 4
-
 [[menu.icon]]
     url = "mailto:iuyte@iuyte.net"
     name = "envelope-o"
@@ -60,11 +45,6 @@ title = "iuyte"
     url = "https://github.com/iuyte/"
     name = "github"
     weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/ethanailw/"
-    name = "twitter"
-    weight = 3
 
 [[menu.icon]]
     url = "https://www.stackoverflow.com/users/8742520/iuyte"
